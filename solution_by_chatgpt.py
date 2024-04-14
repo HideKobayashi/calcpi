@@ -60,5 +60,7 @@ elapsed = end - start
 # 結果の出力
 print("ガウス＝ルジャンドルのアルゴリズムによる円周率の近似値:")
 print(approx_pi)
+approx_pi_str = str(approx_pi)
+print(f"length: {len(approx_pi_str) - 1}")
 print(f"counter: {counter.num}")
 print(f"elapsed time: {elapsed}s")
